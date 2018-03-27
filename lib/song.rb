@@ -1,5 +1,5 @@
 require_relative "../config/environment.rb"
-require 'active_support/inflector'
+require 'active_support/inflector' #this code library allows us to use .pluralize method
 
 class Song
 
@@ -59,6 +59,3 @@ class Song
   end
 
 end
-
-
-
